@@ -1,6 +1,14 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
 html, body {
+    z-index: -20;
     margin: 0;
     padding: 0;
+    top:0;
+
   }
 
   * {
@@ -38,8 +46,7 @@ html, body {
   .slick-current {
     opacity: 1;
   }
-
-  #topimagebox{
+#topimagebox{
       width: 80%;
       margin-left: 10%;
       text-align: center;
@@ -51,4 +58,25 @@ html, body {
     margin-left: 10%;
     text-align: center;
     text-align: center;
+}
+#background{
+  z-index: -10;
+  margin-top: -10vw;
+  position: absolute;
+  height: 300vw;
+  width: 100%;
+  background-image: url(../images/IGC2_Poster02.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size:  100% auto;
+  background-color: #2567a8;
+}
+#mainContent{
+
+  padding-top: 20px;
+  margin-right:10%;
+  margin-left: 10%;
+  background-color: rgba(255,255,255,0.9);
+  z-index: 0;
+  padding-bottom: 400px;
 }
