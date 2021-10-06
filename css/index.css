@@ -63,7 +63,7 @@ html, body {
   z-index: -10;
   margin-top: -10vw;
   position: absolute;
-  height: 300vw;
+  min-height: 250vw;
   width: 100%;
   background-image: url(../images/IGC2_Poster02.png);
 	background-position: center top;
@@ -72,11 +72,10 @@ html, body {
   background-color: #2567a8;
 }
 #mainContent{
-
-  padding-top: 20px;
+  padding-top: 5vw;
   margin-right:10%;
   margin-left: 10%;
   background-color: rgba(255,255,255,0.9);
   z-index: 0;
-  padding-bottom: 400px;
+  height:80vw;
 }
