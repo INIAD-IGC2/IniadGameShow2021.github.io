@@ -1,7 +1,7 @@
-$(".vertical-center-2").slick({
+  $(".center").slick({
     dots: true,
-    vertical: true,
+    infinite: true,
     centerMode: true,
-    slidesToShow: 2,
-    slidesToScroll: 2
+    slidesToShow: 1,
+    slidesToScroll: 3
   });
