@@ -5,12 +5,12 @@
 
 html, body {
     position: relative;
-    height: 290vw;
+    max-height: 290vw;
     z-index: -20;
     margin: 0;
     padding: 0;
     top:0;
-    padding-bottom: 0;
+    bottom: 0;
   }
 
   * {
@@ -63,27 +63,35 @@ html, body {
 }
 #background{
   z-index: -10;
-  margin-top: -10vw;
+  top:0;
+  bottom:0;
+  height: auto;
   position: absolute;
-  height: 300vw;
   width: 100%;
-  background-image: url(../images/IGC2_Poster02.png);
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size:  100% auto;
   background-color: #2567a8;
 }
 
-#bodymain{
-  height: 150vw;
+.center {
+  width:80%;
+  /*background-color: #2567a8;*/
 }
+
+.slide-image{
+  object-fit: cover;
+  /*border: 10px solid black;*/
+}
+
 #mainContent{
   padding-top: 20px;
   margin-right:10%;
   margin-left: 10%;
-  background-color: rgba(255,255,255,0.9);
+  background-color: rgba(255, 255, 255, 0.8);
   z-index: 0;
   padding-bottom: 400px;
+  color: #000000;
 }
 footer{
   position: relative;
@@ -106,7 +114,7 @@ footer{
   padding-top: 3vh;
   font-size: 1.5vh;
   color: #07011f;
-  background-color: rgb(250, 228, 228);
+  background-color: #ffffff;
   text-align: center;
   font-weight: 700;
   box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .7);
@@ -124,7 +132,7 @@ footer{
   padding-top: 2.5vh;
   font-size: 1.5vh;
   color: #07011f;
-  background-color: rgb(250, 228, 228);
+  background-color:#ffffff;
   text-align: center;
   font-weight: 700;
   box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .7);
@@ -183,10 +191,28 @@ footer{
   padding-top: 30px;
   padding-bottom: 30px;
 }
+#img{
+  position: absolute;
+  width: 100vw;
+  height: 58vw;
+  background-image: url(../images/backimage.png);
+  box-shadow: 2vw 2vw 2vw 2vw rgba(0, 0, 0, .5);
+  background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
 #title{
-  display: none;
+  width: 100%;
+  font-size: 3vw;
+  color: white;
+  text-align: center;
+  font-family: Calisto MT,Bookman Old Style,Bookman,Goudy Old Style,Garamond,Hoefler Text,Bitstream Charter,Georgia,serif; 
+  background-color: black;
+  margin-bottom: -2px;
+  height: 6vw;
 }
 
 .blanc1{
-  height: 140vw;
+  height: 63vw;
 }
