@@ -74,13 +74,23 @@ html, body {
   background-color: #2567a8;
 }
 
+.center {
+  /*background-color: #2567a8;*/
+}
+
+.slide-image{
+  object-fit: cover;
+  /*border: 10px solid black;*/
+}
+
 #mainContent{
   padding-top: 20px;
   margin-right:10%;
   margin-left: 10%;
-  background-color: rgba(255,255,255,0.9);
+  background-color: rgba(255, 255, 255, 0.8);
   z-index: 0;
   padding-bottom: 400px;
+  color: #000000;
 }
 footer{
   position: relative;
